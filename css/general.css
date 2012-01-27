@@ -1,3 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	background-color: #999;
+	margin: 3em;
+	
+}
+
+body {
+	padding 3em;
+}
+
+.box {
+	border: solid #000 1px;
+}

@@ -6,9 +6,9 @@ var createList = function (ev) {
 	
 	newlist.className = 'listed'; //.className allows us to manipulate the classes of a tag
 	
-	document.getElementById('ul').appendChild(newlist);	 //.appendChild() will add an element to the HTML file
+	document.getElementById('list').appendChild(newlist);	 //.appendChild() will add an element to the HTML file
 	
-	newlist.innerHTML = document.getElementById('text').value;
+	newlist.innerHTML = document.getElementById('item').value;
 
 };
 
